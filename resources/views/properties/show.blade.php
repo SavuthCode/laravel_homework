@@ -68,6 +68,6 @@
   <li class="list-group-item"> ${{optional($data)->rent_price }} </li>
   <li class="list-group-item">${{optional($data)->sold_price }}</li>
   <li class="list-group-item">${{optional($data)->rent_price }}</li>
-</ul>
+</ul>i
 </div>
 @endsection
