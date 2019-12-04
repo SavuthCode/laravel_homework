@@ -63,5 +63,11 @@
         </select>
     </div>
 </form>
+<h3>Price History laravel property</h3>
+<ul class="list-group">
+  <li class="list-group-item"> ${{optional($data)->rent_price }} </li>
+  <li class="list-group-item">${{optional($data)->sold_price }}</li>
+  <li class="list-group-item">${{optional($data)->rent_price }}</li>
+</ul>
 </div>
 @endsection

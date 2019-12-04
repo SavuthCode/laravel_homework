@@ -77,7 +77,7 @@ class PropertyController extends Controller
      */
     public function show($id)
     {
-        $data         = ['zones', 'types', 'statuses', 'shapes'];
+        $data         = ['zones' ,'PropertyPriceHistory', 'types', 'statuses', 'shapes'];
         $data['data'] = Property::findOrFail($id);
         return view('properties.show', $data);
     }
